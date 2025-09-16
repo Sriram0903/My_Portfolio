@@ -1,0 +1,14 @@
+# Ignore exe files
+*.exe
+
+# Ignore Downloads folder
+images/Downloads/
+
+# Stage remaining untracked files (.gitignore, .gitattributes)
+git add .gitignore .gitattributes
+
+# Commit the changes
+git commit -m "Prepare repository for GitHub push, ignore large files"
+
+# Push to GitHub
+git push origin main
